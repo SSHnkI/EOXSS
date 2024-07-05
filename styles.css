@@ -5,7 +5,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ff1a1a; /* Vermelho sangue */
+    background-color: #ff1a1a;
     overflow: hidden;
 }
 
@@ -33,12 +33,12 @@ video {
 
 .overlay-text {
     position: absolute;
-    top: 20px; /* Ajuste conforme necessário */
+    top: 20px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 3em;
     color: #ffffff; /* Cor do texto */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     z-index: 10;
     text-align: center;
     width: 100%;
