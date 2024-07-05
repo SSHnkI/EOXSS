@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 videoElement.srcObject = stream;
             })
             .catch(function (error) {
-                console.error('Error accessing webcam:', error);
+                console.error('da permisao ai kraio', error);
             });
     } else {
-        console.error('getUserMedia is not supported');
+        console.error('qé mifude mibeja');
     }
 });
